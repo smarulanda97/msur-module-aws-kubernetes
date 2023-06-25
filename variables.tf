@@ -46,6 +46,6 @@ variable "nodegroup_disk_size" {
   type = string
 }
 
-variable "nodegroup_instance_type" {
+variable "nodegroup_instance_types" {
   type = list(string)
 }
